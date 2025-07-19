@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Quiz</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="quiz-container">
-        <h1>Programming Quiz</h1>
+        <h1>CodeMaster Quiz</h1>
         <div id="timer">Time Left: <span id="time">15</span>s</div>
         <div id="question"></div>
         <div id="options"></div>
         <div id="feedback"></div>
         <div class="button-container">
-            <button id="next-btn" disabled>Next</button>
+            <button id="next-btn">Next</button>
         </div>
         <div id="result-container" style="display: none;">
-            <h2>Results</h2>
+            <h2>Your Results</h2>
             <p id="score"></p>
             <p id="total-time"></p>
             <p id="questions-answered"></p>
@@ -26,11 +27,69 @@
             </div>
         </div>
     </div>
+    <canvas id="particle-canvas"></canvas>
     <footer class="footer">
         <div class="footer-content">
-            <p>Designed by Jagadeesh Kota  <span class="heart">❤️</span></p>
+            <p>Designed by Jagadeesh Kota <span class="heart">❤️</span></p>
         </div>
     </footer>
     <script src="script.js"></script>
+    <script>
+        // Particle animation
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        let particles = [];
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.size > 0.2) this.size -= 0.05;
+            }
+            draw() {
+                ctx.fillStyle = 'rgba(0, 255, 255, 0.5)';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            particles = [];
+            for (let i = 0; i < 50; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach((particle, index) => {
+                particle.update();
+                particle.draw();
+                if (particle.size <= 0.2) {
+                    particles.splice(index, 1);
+                    particles.push(new Particle());
+                }
+            });
+            requestAnimationFrame(animate);
+        }
+
+        init();
+        animate();
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            init();
+        });
+    </script>
 </body>
 </html>
