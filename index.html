@@ -3,78 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Quiz Challenge</title>
+    <title>CodeMaster Quiz Challenge</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="welcome-container">
-        <h1>CodeMaster Quiz</h1>
-        <p class="subtitle">Unleash Your Coding Prowess!</p>
-        <a href="quiz.html" class="start-btn">Launch Quiz</a>
+    <div class="main-content">
+        <div class="welcome-container">
+            <h1>CodeMaster Quiz</h1>
+            <p class="subtitle">Unleash Your Coding Prowess!</p>
+            <a href="quiz.html" class="start-btn">Launch Quiz</a>
+        </div>
     </div>
-    <canvas id="particle-canvas"></canvas>
     <footer class="footer">
         <div class="footer-content">
-            <p>Designed by Jagadeesh Kota <span class="heart">❤️</span></p>
+            <p>To all aspiring coders: Every line of code is a step forward. Keep exploring, keep learning, and never stop building! Your journey has just begun. 😊</p>
+            <div class="social-links">
+                <a href="https://github.com/Kota-Jagadeesh" target="_blank" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jagadeeshwar-reddy-kota" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:kota.jagadesh123@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
         </div>
     </footer>
-    <script>
-        // Particle animation
-        const canvas = document.getElementById('particle-canvas');
-        const ctx = canvas.getContext('2d');
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        let particles = [];
-
-        class Particle {
-            constructor() {
-                this.x = Math.random() * canvas.width;
-                this.y = Math.random() * canvas.height;
-                this.size = Math.random() * 2 + 1;
-                this.speedX = Math.random() * 0.5 - 0.25;
-                this.speedY = Math.random() * 0.5 - 0.25;
-            }
-            update() {
-                this.x += this.speedX;
-                this.y += this.speedY;
-                if (this.size > 0.2) this.size -= 0.05;
-            }
-            draw() {
-                ctx.fillStyle = 'rgba(0, 255, 255, 0.5)';
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fill();
-            }
-        }
-
-        function init() {
-            particles = [];
-            for (let i = 0; i < 50; i++) {
-                particles.push(new Particle());
-            }
-        }
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach((particle, index) => {
-                particle.update();
-                particle.draw();
-                if (particle.size <= 0.2) {
-                    particles.splice(index, 1);
-                    particles.push(new Particle());
-                }
-            });
-            requestAnimationFrame(animate);
-        }
-
-        init();
-        animate();
-        window.addEventListener('resize', () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            init();
-        });
-    </script>
 </body>
 </html>
