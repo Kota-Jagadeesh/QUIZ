@@ -95,24 +95,9 @@
         "answer": "*"
     },
     {
-        "question": "What is 'cloud computing'?",
-        "options": ["Computing done only when it's cloudy outside", "Storing data on local servers only", "Delivery of on-demand computing services—from applications to storage and processing power—typically over the internet with a pay-as-you-go pricing model", "A type of weather forecasting software"],
-        "answer": "Delivery of on-demand computing services—from applications to storage and processing power—typically over the internet with a pay-as-you-go pricing model"
-    },
-    {
         "question": "What does 'GUI' stand for?",
         "options": ["General User Interface", "Graphical User Interface", "Global User Interaction", "Graphics Utility Integration"],
         "answer": "Graphical User Interface"
-    },
-    {
-        "question": "Which term describes making a program run repeatedly?",
-        "options": ["Condition", "Iteration", "Declaration", "Assignment"],
-        "answer": "Iteration"
-    },
-    {
-        "question": "What is the primary purpose of a 'function' in programming?",
-        "options": ["To store large amounts of data", "To represent a single instruction only", "To group a set of instructions to perform a specific task, often reusable", "To display information on a screen"],
-        "answer": "To group a set of instructions to perform a specific task, often reusable"
     },
     {
         "question": "What does 'WWW' stand for?",
@@ -175,16 +160,6 @@
         "answer": "To add notes and explanations for human readers, ignored by the compiler/interpreter"
     },
     {
-        "question": "What does 'Wi-Fi' stand for?",
-        "options": ["Wireless Fidelity", "Web Internet Frequency", "Wide Area Fiber Internet", "Wireless File Interchange"],
-        "answer": "Wireless Fidelity"
-    },
-    {
-        "question": "Which of these describes a 'network' of computers?",
-        "options": ["A single computer with multiple users", "Two or more computers connected together to share resources", "A program that manages files", "A component inside a single computer"],
-        "answer": "Two or more computers connected together to share resources"
-    },
-    {
         "question": "What is 'open source' software?",
         "options": ["Software that is very easy to use", "Software whose source code is available to the public for modification and distribution", "Software that is always free of charge", "Software developed by a single person"],
         "answer": "Software whose source code is available to the public for modification and distribution"
@@ -198,16 +173,6 @@
         "question": "Which of these is a type of data structure used to store an ordered collection of items?",
         "options": ["Integer", "Boolean", "Array", "Function"],
         "answer": "Array"
-    },
-    {
-        "question": "What is the purpose of 'debugging' in programming?",
-        "options": ["To write new code", "To find and fix errors in software", "To design the user interface", "To compile the code"],
-        "answer": "To find and fix errors in software"
-    },
-    {
-        "question": "Which of these describes 'Artificial Intelligence' (AI)?",
-        "options": ["A type of computer hardware", "The simulation of human intelligence processes by machines, especially computer systems", "A programming language", "A system for storing data"],
-        "answer": "The simulation of human intelligence processes by machines, especially computer systems"
     },
     {
         "question": "What is the role of a 'router' in a network?",
@@ -298,11 +263,6 @@
         "question": "Which programming concept involves breaking down a large problem into smaller, manageable sub-problems?",
         "options": ["Encapsulation", "Recursion", "Modularity", "Inheritance"],
         "answer": "Modularity"
-    },
-    {
-        "question": "What is 'phishing' in cybersecurity?",
-        "options": ["A type of computer game", "A technique used to catch computer viruses", "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity", "A method for speeding up internet connection"],
-        "answer": "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity"
     },
     {
         "question": "Which of these is a search engine?",
@@ -400,11 +360,6 @@
         "answer": "Conditional Statement (if/else)"
     },
     {
-        "question": "What is the common term for removing errors from a program?",
-        "options": ["Compiling", "Executing", "Debugging", "Synthesizing"],
-        "answer": "Debugging"
-    },
-    {
         "question": "Which of these is a cloud storage service?",
         "options": ["Microsoft Word", "Adobe Photoshop", "Google Drive", "VLC Media Player"],
         "answer": "Google Drive"
@@ -433,11 +388,6 @@
         "question": "Which of these is an operating system primarily used on servers?",
         "options": ["Windows XP", "macOS Sierra", "Ubuntu Server", "Android Oreo"],
         "answer": "Ubuntu Server"
-    },
-    {
-        "question": "What is the main advantage of 'fiber optic' internet?",
-        "options": ["It's very cheap to install", "It uses wireless signals", "It offers very high speeds and bandwidth", "It's only available in rural areas"],
-        "answer": "It offers very high speeds and bandwidth"
     },
     {
         "question": "Which term describes creating a digital copy of a physical document?",
