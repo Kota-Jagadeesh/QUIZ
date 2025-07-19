@@ -1,0 +1,344 @@
+[
+    {
+        "question": "Which of these is a programming language?",
+        "options": ["HTML", "CSS", "Python", "XML"],
+        "answer": "Python"
+    },
+    {
+        "question": "What does CPU stand for in the context of computer programming?",
+        "options": ["Central Processing Unit", "Computer Programming Utility", "Control Processing Unit", "Central Program Utility"],
+        "answer": "Central Processing Unit"
+    },
+    {
+        "question": "Which symbol is used to denote a single-line comment in Python?",
+        "options": ["//", "#", "/*", "--"],
+        "answer": "#"
+    },
+    {
+        "question": "In JavaScript, which method is used to add an element to the end of an array?",
+        "options": ["push()", "pop()", "shift()", "unshift()"],
+        "answer": "push()"
+    },
+    {
+        "question": "What is the time complexity of a binary search algorithm?",
+        "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+        "answer": "O(log n)"
+    },
+    {
+        "question": "Which of these is NOT a data type in C++?",
+        "options": ["int", "float", "string", "boolean"],
+        "answer": "boolean"
+    },
+    {
+        "question": "What does HTML stand for?",
+        "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyper Transfer Markup Language", "Home Tool Markup Language"],
+        "answer": "Hyper Text Markup Language"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": ["func", "define", "def", "function"],
+        "answer": "def"
+    },
+    {
+        "question": "In Java, which access modifier makes a variable accessible only within its own class?",
+        "options": ["public", "private", "protected", "default"],
+        "answer": "private"
+    },
+    {
+        "question": "Which of these is a version control system?",
+        "options": ["Git", "Docker", "Kubernetes", "Jenkins"],
+        "answer": "Git"
+    },
+    {
+        "question": "What is the purpose of the 'return' statement in a function?",
+        "options": ["To exit the function", "To return a value from the function", "To define a variable", "To call another function"],
+        "answer": "To return a value from the function"
+    },
+    {
+        "question": "Which of these is a front-end framework?",
+        "options": ["Django", "Flask", "React", "Spring"],
+        "answer": "React"
+    },
+    {
+        "question": "What does SQL stand for?",
+        "options": ["Structured Query Language", "Standard Query Language", "Simple Query Language", "Sequential Query Language"],
+        "answer": "Structured Query Language"
+    },
+    {
+        "question": "In Python, which keyword is used to handle exceptions?",
+        "options": ["try", "catch", "except", "finally"],
+        "answer": "try"
+    },
+    {
+        "question": "Which of these is a NoSQL database?",
+        "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+        "answer": "MongoDB"
+    },
+    {
+        "question": "What is the purpose of the 'for' loop in programming?",
+        "options": ["To iterate over a sequence", "To define a function", "To handle exceptions", "To create a class"],
+        "answer": "To iterate over a sequence"
+    },
+    {
+        "question": "Which of these is a popular CSS framework?",
+        "options": ["Bootstrap", "Django", "Flask", "React"],
+        "answer": "Bootstrap"
+    },
+    {
+        "question": "What is the purpose of the 'import' statement in Python?",
+        "options": ["To include external libraries", "To define a variable", "To create a function", "To handle exceptions"],
+        "answer": "To include external libraries"
+    },
+    {
+        "question": "Which of these is a popular JavaScript library for building user interfaces?",
+        "options": ["jQuery", "Bootstrap", "React", "Angular"],
+        "answer": "React"
+    },
+    {
+        "question": "What is the main purpose of CSS in web development?",
+        "options": ["To structure the content", "To style the content", "To add interactivity", "To manage databases"],
+        "answer": "To style the content"
+    },
+    {
+        "question": "In C++, which operator is used to access members of a class?",
+        "options": ["->", ".", "::", "&"],
+        "answer": "."
+    },
+    {        "question": "What is the purpose of the 'this' keyword in JavaScript?",
+        "options": ["To refer to the current object", "To define a function", "To create a variable", "To handle exceptions"],
+        "answer": "To refer to the current object"
+    },
+    {        "question": "Which of these is a popular Python web framework?",
+        "options": ["Django", "Flask", "Ruby on Rails", "Spring"],
+        "answer": "Django"
+    }   ,
+    {
+        "question": "What is the purpose of the 'break' statement in a loop?",
+        "options": ["To exit the loop", "To continue to the next iteration", "To define a function", "To handle exceptions"],
+        "answer": "To exit the loop"
+    },
+    {        "question": "Which of these is a popular version control system?",
+        "options": ["Git", "SVN", "Mercurial", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'class' keyword in Python?",
+        "options": ["To define a class", "To create a function", "To handle exceptions", "To include external libraries"],
+        "answer": "To define a class"
+    },
+    {        "question": "Which of these is a popular JavaScript framework for building single-page applications?",
+        "options": ["Angular", "React", "Vue.js", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'else' statement in a conditional statement?",
+        "options": ["To define an alternative action if the condition is false", "To handle exceptions", "To create a loop", "To define a function"],
+        "answer": "To define an alternative action if the condition is false"
+    },
+    {        "question": "Which of these is a popular tool for automating software deployment?",
+        "options": ["Docker", "Kubernetes", "Ansible", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'while' loop in programming?",
+        "options": ["To iterate over a sequence", "To repeat a block of code while a condition is true", "To define a function", "To handle exceptions"],
+        "answer": "To repeat a block of code while a condition is true"
+    },
+    {        "question": "Which of these is a popular tool for managing project dependencies in JavaScript?",
+        "options": ["npm", "yarn", "bower", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'switch' statement in programming?",
+        "options": ["To handle multiple conditions", "To define a function", "To create a loop", "To handle exceptions"],
+        "answer": "To handle multiple conditions"
+    },
+    {        "question": "Which of these is a popular tool for continuous integration and continuous deployment (CI/CD)?",
+        "options": ["Jenkins", "Travis CI", "CircleCI", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'try' statement in Python?",
+        "options": ["To handle exceptions", "To define a function", "To create a loop", "To include external libraries"],
+        "answer": "To handle exceptions"
+    },
+    {        "question": "Which of these is a popular tool for managing containerized applications?",
+        "options": ["Docker", "Kubernetes", "OpenShift", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'import' statement in JavaScript?",
+        "options": ["To include external libraries", "To define a variable", "To create a function", "To handle exceptions"],
+        "answer": "To include external libraries"
+    },
+    {        "question": "Which of these is a popular tool for managing databases in web development?",
+        "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'function' keyword in JavaScript?",
+        "options": ["To define a function", "To create a variable", "To handle exceptions", "To include external libraries"],
+        "answer": "To define a function"
+    },
+    {        "question": "Which of these is a popular tool for managing web servers?",
+        "options": ["Apache", "Nginx", "IIS", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'return' statement in JavaScript?",
+        "options": ["To exit the function", "To return a value from the function", "To define a variable", "To call another function"],
+        "answer": "To return a value from the function"
+    },
+    {        "question": "Which of these is a popular tool for managing web applications?",
+        "options": ["Heroku", "AWS", "Azure", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'break' statement in JavaScript?",
+        "options": ["To exit the loop", "To continue to the next iteration", "To define a function", "To handle exceptions"],
+        "answer": "To exit the loop"
+    },
+    {        "question": "Which of these is a popular tool for managing web development projects?",
+        "options": ["Git", "SVN", "Mercurial", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'class' keyword in JavaScript?",
+        "options": ["To define a class", "To create a function", "To handle exceptions", "To include external libraries"],
+        "answer": "To define a class"
+    },
+    {        "question": "Which of these is a popular tool for managing web development workflows?",
+        "options": ["Webpack", "Gulp", "Grunt", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'else if' statement in a conditional statement?",
+        "options": ["To define an alternative condition if the previous condition is false", "To handle exceptions", "To create a loop", "To define a function"],
+        "answer": "To define an alternative condition if the previous condition is false"
+    },
+    {        "question": "Which of these is a popular tool for managing web development environments?",
+        "options": ["Docker", "Vagrant", "VirtualBox", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'while' loop in JavaScript?",
+        "options": ["To iterate over a sequence", "To repeat a block of code while a condition is true", "To define a function", "To handle exceptions"],
+        "answer": "To repeat a block of code while a condition is true"
+    },
+    {        "question": "Which of these is a popular tool for managing web development dependencies?",
+        "options": ["npm", "yarn", "bower", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'switch' statement in JavaScript?",
+        "options": ["To handle multiple conditions", "To define a function", "To create a loop", "To handle exceptions"],
+        "answer": "To handle multiple conditions"
+    },
+    {        "question": "Which of these is a popular tool for managing web development tasks?",
+        "options": ["Gulp", "Grunt", "Webpack", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'try' statement in JavaScript?",
+        "options": ["To handle exceptions", "To define a function", "To create a loop", "To include external libraries"],
+        "answer": "To handle exceptions"
+    },
+    {        "question": "Which of these is a popular tool for managing web development assets?",
+        "options": ["Webpack", "Gulp", "Grunt", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'import' statement in JavaScript?",
+        "options": ["To include external libraries", "To define a variable", "To create a function", "To handle exceptions"],
+        "answer": "To include external libraries"
+    },
+    {        "question": "Which of these is a popular tool for managing web development frameworks?",
+        "options": ["Django", "Flask", "Ruby on Rails", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'function' keyword in Python?",
+        "options": ["To define a function", "To create a variable", "To handle exceptions", "To include external libraries"],
+        "answer": "To define a function"
+    },
+    {        "question": "Which of these is a popular tool for managing web development libraries?",
+        "options": ["npm", "yarn", "bower", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'return' statement in Python?",
+        "options": ["To exit the function", "To return a value from the function", "To define a variable", "To call another function"],
+        "answer": "To return a value from the function"
+    },
+    {        "question": "Which of these is a popular tool for managing web development servers?",
+        "options": ["Apache", "Nginx", "IIS", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'break' statement in Python?",
+        "options": ["To exit the loop", "To continue to the next iteration", "To define a function", "To handle exceptions"],
+        "answer": "To exit the loop"
+    },
+    {        "question": "Which of these is a popular tool for managing web development projects?",
+        "options": ["Git", "SVN", "Mercurial", "All of  the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'class' keyword in Python?",
+        "options": ["To define a class", "To create a function", "To handle exceptions", "To include external libraries"],
+        "answer": "To define a class"
+    },
+    {        "question": "Which of these is a popular tool for managing web development workflows?",
+        "options": ["Webpack", "Gulp", "Grunt", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'else if' statement in a conditional statement in Python?",
+        "options": ["To define an alternative condition if the previous condition is false", "To handle exceptions", "To create a loop", "To define a function"],
+        "answer": "To define an alternative condition if the previous condition is false"
+    },
+    {        "question": "Which of these is a popular tool for managing web development environments?",
+        "options": ["Docker", "Vagrant", "VirtualBox", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'while' loop in Python?",
+        "options": ["To iterate over a sequence", "To repeat a block of code while a condition is true", "To define a function", "To handle exceptions"],
+        "answer": "To repeat a block of code while a condition is true"
+    },
+    {        "question": "Which of these is a popular tool for managing web development dependencies?",
+        "options": ["npm", "yarn", "bower", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'switch' statement in Python?",
+        "options": ["To handle multiple conditions", "To define a function", "To create a loop", "To handle exceptions"],
+        "answer": "To handle multiple conditions"
+    },
+    {        "question": "Which of these is a popular tool for managing web development tasks?",
+        "options": ["Gulp", "Grunt", "Webpack", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'try' statement in Python?",
+        "options": ["To handle exceptions", "To define a function", "To create a loop", "To include external libraries"],
+        "answer": "To handle exceptions"
+    },
+    {        "question": "Which of these is a popular tool for managing web development assets?",
+        "options": ["Webpack", "Gulp", "Grunt", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'import' statement in Python?",
+        "options": ["To include external libraries", "To define a variable", "To create a function", "To handle exceptions"],
+        "answer": "To include external libraries"
+    },
+    {        "question": "Which of these is a popular tool for managing web development frameworks?",
+        "options": ["Django", "Flask", "Ruby on Rails", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'function' keyword in Python?",
+        "options": ["To define a function", "To create a variable", "To handle exceptions", "To include external libraries"],
+        "answer": "To define a function"
+    },
+    {        "question": "Which of these is a popular tool for managing web development libraries?",
+        "options": ["npm", "yarn", "bower", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'return' statement in Python?",
+        "options": ["To exit the function", "To return a value from the function", "To define a variable", "To call another function"],
+        "answer": "To return a value from the function"
+    },
+    {        "question": "Which of these is a popular tool for managing web development servers?",
+        "options": ["Apache", "Nginx", "IIS", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'break' statement in Python?",
+        "options": ["To exit the loop", "To continue to the next iteration", "To define a function", "To handle exceptions"],
+        "answer": "To exit the loop"
+    },
+    {        "question": "Which of these is a popular tool for managing web development projects?",
+        "options": ["Git", "SVN", "Mercurial", "All of the above"],
+        "answer": "All of the above"
+    },
+    {        "question": "What is the purpose of the 'class' keyword in Python?",
+        "options": ["To define a class", "To create a function", "To handle exceptions", "To include external libraries"],
+        "answer": "To define a class"
+    }
+]
