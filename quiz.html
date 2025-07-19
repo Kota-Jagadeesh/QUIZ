@@ -3,93 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Quiz</title>
+    <title>CodeMaster Quiz</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>CodeMaster Quiz</h1>
-        <div id="timer">Time Left: <span id="time">15</span>s</div>
-        <div id="question"></div>
-        <div id="options"></div>
-        <div id="feedback"></div>
-        <div class="button-container">
-            <button id="next-btn">Next</button>
+    <div class="main-content">
+        <div class="quiz-container" id="quiz-container">
+            <h1>CodeMaster Quiz</h1>
+            <div id="timer">Time Left: <span id="time">15</span>s</div>
+            <div id="question"></div>
+            <div id="options"></div>
+            <div id="feedback"></div>
+            <div class="button-container">
+                <button id="next-btn">Next Question</button>
+            </div>
         </div>
         <div id="result-container" style="display: none;">
-            <h2>Your Results</h2>
-            <p id="score"></p>
-            <p id="total-time"></p>
-            <p id="questions-answered"></p>
+            <h2>Quiz Complete!</h2>
+            <div class="result-metrics-grid">
+                <div class="result-metric-card score">
+                    <p>Correct Answers:</p>
+                    <strong id="score-correct"></strong>
+                </div>
+                <div class="result-metric-card accuracy">
+                    <p>Accuracy:</p>
+                    <strong id="accuracy-percentage"></strong>
+                </div>
+                <div class="result-metric-card speed">
+                    <p>Avg. Time per Q:</p>
+                    <strong id="avg-time-per-q"></strong>
+                </div>
+                <div class="result-metric-card answered">
+                    <p>Questions Answered:</p>
+                    <strong id="questions-answered"></strong>
+                </div>
+                <div class="result-metric-card missed">
+                    <p>Questions Missed:</p>
+                    <strong id="questions-missed"></strong>
+                </div>
+                <div class="result-metric-card grade">
+                    <p>Your Grade:</p>
+                    <strong id="quiz-grade"></strong>
+                </div>
+            </div>
             <div class="button-container">
-                <button id="restart-btn">Restart</button>
+                <button id="restart-btn">Restart Quiz</button>
             </div>
         </div>
     </div>
-    <canvas id="particle-canvas"></canvas>
     <footer class="footer">
         <div class="footer-content">
-            <p>Designed by Jagadeesh Kota <span class="heart">❤️</span></p>
+            <p>To all B.Tech 1st-year aspiring coders: Every line of code is a step forward. Keep exploring, keep learning, and never stop building! Your journey has just begun. 😊</p>
+            <div class="social-links">
+                <a href="https://github.com/Kota-Jagadeesh" target="_blank" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jagadeeshwar-reddy-kota" target="_blank" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:kota.jagadesh123@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
         </div>
     </footer>
     <script src="script.js"></script>
-    <script>
-        // Particle animation
-        const canvas = document.getElementById('particle-canvas');
-        const ctx = canvas.getContext('2d');
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        let particles = [];
-
-        class Particle {
-            constructor() {
-                this.x = Math.random() * canvas.width;
-                this.y = Math.random() * canvas.height;
-                this.size = Math.random() * 2 + 1;
-                this.speedX = Math.random() * 0.5 - 0.25;
-                this.speedY = Math.random() * 0.5 - 0.25;
-            }
-            update() {
-                this.x += this.speedX;
-                this.y += this.speedY;
-                if (this.size > 0.2) this.size -= 0.05;
-            }
-            draw() {
-                ctx.fillStyle = 'rgba(0, 255, 255, 0.5)';
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fill();
-            }
-        }
-
-        function init() {
-            particles = [];
-            for (let i = 0; i < 50; i++) {
-                particles.push(new Particle());
-            }
-        }
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach((particle, index) => {
-                particle.update();
-                particle.draw();
-                if (particle.size <= 0.2) {
-                    particles.splice(index, 1);
-                    particles.push(new Particle());
-                }
-            });
-            requestAnimationFrame(animate);
-        }
-
-        init();
-        animate();
-        window.addEventListener('resize', () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            init();
-        });
-    </script>
 </body>
-</html>
+</html> 
