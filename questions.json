@@ -5,11 +5,6 @@
         "answer": "Python"
     },
     {
-        "question": "What does CPU stand for in the context of computer programming?",
-        "options": ["Central Processing Unit", "Computer Programming Utility", "Control Processing Unit", "Central Program Utility"],
-        "answer": "Central Processing Unit"
-    },
-    {
         "question": "Which of these is an input device?",
         "options": ["Monitor", "Keyboard", "Printer", "Speaker"],
         "answer": "Keyboard"
@@ -55,19 +50,9 @@
         "answer": "A storage location identified by a memory address and an associated symbolic name"
     },
     {
-        "question": "Which of these is an output device?",
-        "options": ["Mouse", "Microphone", "Printer", "Scanner"],
-        "answer": "Printer"
-    },
-    {
         "question": "What does 'URL' stand for?",
         "options": ["Universal Resource Link", "Uniform Resource Locator", "United Remote Link", "User Retrieval Link"],
         "answer": "Uniform Resource Locator"
-    },
-    {
-        "question": "Which of these is considered software?",
-        "options": ["Keyboard", "Monitor", "Operating System", "Hard Drive"],
-        "answer": "Operating System"
     },
     {
         "question": "What is the purpose of an 'algorithm'?",
@@ -91,7 +76,7 @@
     },
     {
         "question": "Which symbol is often used for 'multiplication' in programming?",
-        "options": ["+", "-", "*", "/"],
+        "options": ["+*", "**", "*", "/*"],
         "answer": "*"
     },
     {
